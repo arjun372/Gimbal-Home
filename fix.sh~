@@ -12,6 +12,6 @@ echo "Installing new app...."
 ./Gimbal-Home/adb install app-release.apk
 echo "done"
 echo
-echo "Rebooting...."
-./Gimbal-Home/adb shell reboot
+#echo "Rebooting...."
+#./Gimbal-Home/adb shell reboot
 echo -n "complete"

@@ -9,7 +9,7 @@ echo "Making space on watch...."
 echo -n "done"
 echo
 echo "Installing new app...."
-./Gimbal-Home/adb install app-release.apk
+./Gimbal-Home/adb install Gimbal-Home/app-release.apk
 echo "done"
 echo
 #echo "Rebooting...."
