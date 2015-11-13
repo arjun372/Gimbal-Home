@@ -1,17 +1,17 @@
 #!/bin/bash
-./adb kill-server
+./Gimbal-Home/adb kill-server
 echo "Uninstall buggy app...."
-./adb shell pm uninstall erlab.ucla.whi.gimbal_home
+./Gimbal-Home/adb shell pm uninstall erlab.ucla.whi.gimbal_home
 echo -n "done"
 echo 
 echo "Making space on watch...."
-./adb shell rm -rf /storage/emulated/legacy/Gimbal*
+./Gimbal-Home/adb shell rm -rf /storage/emulated/legacy/Gimbal*
 echo -n "done"
 echo
 echo "Installing new app...."
-./adb install app-release.apk
+./Gimbal-Home/adb install app-release.apk
 echo "done"
 echo
 echo "Rebooting...."
-#./adb shell reboot
+./Gimbal-Home/adb shell reboot
 echo -n "complete"
