@@ -13,5 +13,5 @@ echo "Installing new app...."
 echo "done"
 echo
 echo "Rebooting...."
-./adb shell reboot
+#./adb shell reboot
 echo -n "complete"
